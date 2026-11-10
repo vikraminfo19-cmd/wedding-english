@@ -1,0 +1,238 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Gayathri & Vikram Wedding</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Karla:wght@400;600&family=Noto+Serif+Tamil:wght@500;600&display=swap">
+<style>
+/* Layout: centred invitation column on silk-maroon ground; temple-arch hero card, countdown, muhurtham sheet, family blessing. Single rich theme by choice. */
+:root{
+  --silk:#5E0B1E;
+  --silk-deep:#3D0612;
+  --gold:#C9A227;
+  --gold-soft:#E8D08A;
+  --paper:#FFF9EE;
+  --kumkum:#8C1028;
+  --ink:#2A1418;
+  --muted:#6E4A42;
+  --display:"Cinzel Decorative","Noto Serif Tamil","Georgia",serif;
+  --serif:"Cormorant Garamond","Noto Serif Tamil","Georgia",serif;
+  --body:"Karla","Noto Serif Tamil",system-ui,sans-serif;
+  --tamil:"Noto Serif Tamil","Latha",serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{
+  background:var(--silk);
+  background-image:
+    repeating-linear-gradient(45deg,rgba(201,162,39,.06) 0 2px,transparent 2px 22px),
+    repeating-linear-gradient(-45deg,rgba(201,162,39,.06) 0 2px,transparent 2px 22px),
+    radial-gradient(circle at 50% 0,rgba(255,255,255,.08),transparent 60%);
+  color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6;
+  padding-left:max(16px,env(safe-area-inset-left,0px));
+  padding-right:max(16px,env(safe-area-inset-right,0px));
+  padding-block:0 40px;
+  overflow-x:hidden;
+}
+#petals{position:fixed;inset:0;pointer-events:none;z-index:0}
+.toran{position:relative;height:46px;margin:0 calc(-1 * max(16px,env(safe-area-inset-left,0px)));z-index:1;
+  background:
+    radial-gradient(circle at 10px 8px,#FFFFFF 0 5px,#EDE6D6 6px,transparent 7px) 0 0/20px 16px repeat-x,
+    radial-gradient(circle at 10px 8px,#FFFDF6 0 5px,#E6DCC6 6px,transparent 7px) 10px 14px/20px 16px repeat-x,
+    linear-gradient(var(--gold),var(--gold)) 0 0/100% 3px no-repeat}
+main{position:relative;z-index:1;max-width:640px;margin:24px auto 0;display:flex;flex-direction:column;gap:22px}
+.card{background:var(--paper);border-radius:4px;padding:32px 24px;box-shadow:0 14px 40px rgba(0,0,0,.4);
+  border:2px solid var(--gold);outline:1px solid var(--gold);outline-offset:-10px}
+.hero{text-align:center;padding-block:44px 40px;border-radius:200px 200px 4px 4px}
+.ganesh{font-family:var(--tamil);color:var(--kumkum);font-size:15px}
+.eyebrow{font-family:var(--serif);font-style:italic;font-size:19px;color:var(--muted);margin-top:16px}
+h1{font-family:var(--display);font-weight:700;color:var(--kumkum);font-size:clamp(30px,8vw,46px);line-height:1.1;margin:8px 0 4px;text-wrap:balance}
+.tamil-title{font-family:var(--tamil);color:var(--gold);font-size:20px;filter:brightness(.8)}
+.names{display:flex;flex-direction:column;align-items:center;gap:0;margin-top:24px}
+.names .n{font-family:var(--serif);font-weight:600;font-size:clamp(30px,8vw,42px);color:var(--ink);line-height:1.2}
+.names .amp{font-family:var(--display);color:var(--gold);font-size:30px;line-height:1.2}
+.kolam{display:block;margin:22px auto 0;width:84px;height:28px}
+.intro{max-width:46ch;margin:18px auto 0;color:var(--muted);font-family:var(--serif);font-size:19px}
+h2{font-family:var(--serif);font-weight:600;font-size:26px;color:var(--kumkum);margin:0 0 16px;text-align:center;text-wrap:balance}
+.countdown{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;text-align:center}
+.countdown div{background:var(--silk);border:1px solid var(--gold);border-radius:4px;padding:12px 4px}
+.countdown b{display:block;font-family:var(--serif);font-weight:600;font-size:clamp(28px,7vw,40px);color:var(--gold-soft);font-variant-numeric:tabular-nums;line-height:1.1}
+.countdown span{font-size:12px;text-transform:uppercase;letter-spacing:.14em;color:var(--paper)}
+.cd-note{text-align:center;margin:12px 0 0;color:var(--muted);font-size:14px}
+.event{display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:start}
+.date{width:80px;text-align:center;border:2px solid var(--kumkum);border-radius:4px;overflow:hidden}
+.date .m{background:var(--kumkum);color:var(--paper);font-size:12px;letter-spacing:.18em;padding:3px 0}
+.date .d{font-family:var(--serif);font-weight:600;font-size:38px;color:var(--kumkum);line-height:1.15}
+.date .w{font-size:12px;color:var(--muted);padding-bottom:4px}
+.event h3{font-family:var(--serif);font-weight:600;font-size:25px;margin:0;color:var(--ink)}
+.event .ta{font-family:var(--tamil);font-size:14px;color:var(--muted)}
+.event dl{margin:10px 0 0;display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:15px}
+.event dt{color:var(--muted);text-transform:uppercase;font-size:12px;letter-spacing:.12em;padding-top:3px}
+.event dd{margin:0;min-width:0}
+.map{display:inline-block;margin-top:6px;color:var(--kumkum);font-weight:600;text-decoration:none;border-bottom:1px solid var(--gold)}
+.map:hover,.map:focus-visible{color:var(--silk-deep);border-bottom-width:2px}
+.families{display:grid;grid-template-columns:1fr 1fr;gap:20px;text-align:center}
+.families h3{font-family:var(--body);font-weight:600;color:var(--kumkum);font-size:13px;letter-spacing:.18em;text-transform:uppercase;margin:0 0 8px}
+.families p{margin:0;font-family:var(--serif);font-size:20px}
+.families .of{color:var(--muted);font-family:var(--body);font-size:14px;margin-top:6px}
+.bless{text-align:center;margin:22px 0 0;color:var(--muted);font-family:var(--serif);font-style:italic;font-size:18px}
+footer{text-align:center;font-family:var(--serif);font-size:18px;color:var(--gold-soft);position:relative;z-index:1;margin-top:28px}
+footer .tag{font-family:var(--body);font-size:15px;font-weight:600;color:var(--gold);letter-spacing:.04em}
+/* bilingual: Tamil leads, English follows smaller */
+.en{display:block;font-family:"Karla",system-ui,sans-serif;font-style:normal;font-size:.72em;font-weight:400;color:var(--muted);letter-spacing:.02em;line-height:1.4;margin-top:2px}
+footer .en{color:var(--gold-soft);font-size:15px}
+.tamil-title{font-size:26px;filter:none;color:var(--kumkum);font-weight:600}
+.names .n{font-family:var(--tamil);font-weight:600;font-size:clamp(26px,7vw,36px);line-height:1.35}
+.names .en{font-size:14px;text-transform:uppercase;letter-spacing:.14em}
+.eyebrow,.intro,.bless{font-family:var(--tamil);font-style:normal;font-size:16px;line-height:1.7}
+.eyebrow .en,.intro .en,.bless .en{font-family:var(--serif);font-style:italic;font-size:17px}
+h2{font-family:var(--tamil);font-size:22px}
+h2 small{display:block;font-family:var(--serif);font-style:italic;font-weight:500;font-size:18px;color:var(--muted)}
+.event h3{font-family:var(--tamil);font-size:21px}
+.event .ta{font-family:var(--serif);font-style:italic;font-size:17px}
+.event dt{line-height:1.3}
+.map{display:inline-block;margin-top:8px}
+.countdown span{line-height:1.25;font-size:10px}
+.date .m{letter-spacing:.08em}
+.families h3{letter-spacing:.06em}
+.families p{font-family:var(--tamil);font-size:17px}
+.families p + p{margin-top:8px}
+@media (max-width:440px){
+  .card{padding:28px 18px}
+  .hero{border-radius:140px 140px 4px 4px}
+  .families{grid-template-columns:1fr}
+  .event{grid-template-columns:1fr}
+  .date{width:100%;display:flex;align-items:center;justify-content:center;gap:10px}
+  .date .m,.date .w{padding:4px 8px}
+  .date .d{font-size:28px}
+}
+@media (prefers-reduced-motion:reduce){#petals{display:none}}
+/* English edition overrides */
+h1{font-size:clamp(34px,9vw,56px)}
+.names .n{font-family:var(--serif);font-size:clamp(30px,8vw,42px);line-height:1.2}
+.eyebrow,.intro,.bless{font-family:var(--serif);font-style:italic;font-size:19px;line-height:1.5}
+h2{font-family:var(--serif);font-size:26px}
+.event h3{font-family:var(--serif);font-size:25px}
+.families p{font-family:var(--serif);font-size:20px}
+.families h3{letter-spacing:.18em;text-transform:uppercase;font-size:13px}
+.countdown span{font-size:12px}
+</style>
+
+<canvas id="petals" aria-hidden="true"></canvas>
+<div class="toran" aria-hidden="true"></div>
+
+<main>
+  <section class="card hero">
+    <div class="ganesh">Sri Murugan Thunai</div>
+    <div class="eyebrow">Together with their families, request the honour of your presence at the</div>
+    <h1>Wedding</h1>
+    <div class="names">
+      <span class="n">Gayathri Devi S</span>
+      <span class="amp">&amp;</span>
+      <span class="n">Vikram P</span>
+    </div>
+    <svg class="kolam" viewBox="0 0 84 28" aria-hidden="true">
+      <g fill="none" stroke="#C9A227" stroke-width="1.5">
+        <path d="M0 14 H28"/><path d="M56 14 H84"/>
+        <path d="M42 2 L54 14 L42 26 L30 14 Z"/>
+      </g>
+      <circle cx="42" cy="14" r="3.5" fill="#8C1028"/>
+    </svg>
+    <p class="intro">Two hearts, two families, one beautiful journey. Please join us with your family and bless the couple as they begin their life together.</p>
+  </section>
+
+  <section class="card" aria-labelledby="cd-h">
+    <h2 id="cd-h">Muhurtham begins in</h2>
+    <div class="countdown">
+      <div><b id="cd-d">--</b><span>Days</span></div>
+      <div><b id="cd-h2">--</b><span>Hours</span></div>
+      <div><b id="cd-m">--</b><span>Mins</span></div>
+      <div><b id="cd-s">--</b><span>Secs</span></div>
+    </div>
+    <p class="cd-note">Sunday, 22 November 2026 · 9:00 AM IST</p>
+  </section>
+
+  <section class="card" aria-labelledby="ev-h">
+    <h2 id="ev-h">Event Details</h2>
+    <article class="event">
+      <div class="date"><div class="m">NOV</div><div class="d">22</div><div class="w">Sunday</div></div>
+      <div>
+        <h3>Wedding Muhurtham</h3>
+        <dl>
+          <dt>Time</dt><dd>9:00 AM – 10:00 AM</dd>
+          <dt>Venue</dt><dd>C.S Chithra Mahal<br><a class="map" href="https://maps.app.goo.gl/ywLCgocmyhPrZrRT8" target="_blank" rel="noopener">Open in Google Maps &rarr;</a></dd>
+        </dl>
+      </div>
+    </article>
+  </section>
+
+  <section class="card" aria-labelledby="fam-h">
+    <h2 id="fam-h">With the blessings of</h2>
+    <div class="families">
+      <div>
+        <h3>Bride's Family</h3>
+        <p>Mr. Senthil Kumar</p>
+        <p>Mrs. Priya S</p>
+        <p class="of">Parents of Gayathri Devi S</p>
+      </div>
+      <div>
+        <h3>Groom's Family</h3>
+        <p>Mr. Paninathan M</p>
+        <p>Mrs. Kannaki P</p>
+        <p class="of">Parents of Vikram P</p>
+      </div>
+    </div>
+    <p class="bless">Your presence and blessings mean the world to us.</p>
+  </section>
+</main>
+
+<footer>
+  <div class="tag">Gayathri &amp; Vikram</div>
+  <div>22 November 2026 · C.S Chithra Mahal</div>
+</footer>
+
+<script>
+(function(){
+  var target = new Date("2026-11-22T09:00:00+05:30").getTime();
+  var ids = ["cd-d","cd-h2","cd-m","cd-s"].map(function(i){return document.getElementById(i);});
+  function pad(n){return String(n).padStart(2,"0");}
+  function tick(){
+    var diff = target - Date.now();
+    if (diff <= 0){
+      ids.forEach(function(el){el.textContent="00";});
+      document.getElementById("cd-h").firstChild.textContent = "The couple is married!";
+      return;
+    }
+    var s = Math.floor(diff/1000);
+    ids[0].textContent = Math.floor(s/86400);
+    ids[1].textContent = pad(Math.floor(s%86400/3600));
+    ids[2].textContent = pad(Math.floor(s%3600/60));
+    ids[3].textContent = pad(s%60);
+    setTimeout(tick, 1000);
+  }
+  tick();
+
+  // Falling jasmine and rose petals
+  if (window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  var c = document.getElementById("petals"), ctx = c.getContext("2d"), W, H, petals = [];
+  var colors = ["#FFFFFF","#FFF4E0","#D7263D","#FFFFFF"];
+  function size(){ W = c.width = innerWidth; H = c.height = innerHeight; }
+  size(); addEventListener("resize", size);
+  for (var i=0;i<26;i++) petals.push({x:Math.random()*W,y:Math.random()*H,r:3+Math.random()*5,vy:.35+Math.random()*.7,vx:Math.random()*.6-.3,a:Math.random()*6.28,va:Math.random()*.04-.02,col:colors[i%4]});
+  function draw(){
+    ctx.clearRect(0,0,W,H);
+    petals.forEach(function(p){
+      p.y+=p.vy; p.x+=p.vx+Math.sin(p.y/40)*.3; p.a+=p.va;
+      if (p.y>H+10){p.y=-10;p.x=Math.random()*W;}
+      ctx.save(); ctx.translate(p.x,p.y); ctx.rotate(p.a);
+      ctx.fillStyle=p.col; ctx.globalAlpha=.85;
+      ctx.beginPath(); ctx.ellipse(0,0,p.r,p.r*.5,0,0,6.28); ctx.fill();
+      ctx.restore();
+    });
+    requestAnimationFrame(draw);
+  }
+  draw();
+})();
+</script>
+
+</body></html>
